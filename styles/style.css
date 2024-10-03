@@ -1,1 +1,30 @@
+h1 {text-align: center;
+    font-family: "Trirong", serif;
+    color: #A52A2A;
+}
 
+h5 {text-align: center;
+  
+}
+
+body {background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="36" height="72" viewBox="0 0 36 72"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+  
+  
+.draggable {
+    padding: 13px;
+    margin: 5px;
+    background-color: #fff0f5;
+    cursor: move;
+    display: inline-block;
+}
+
+.droppable {
+    padding: 10px;
+    margin: 5px;
+    background-color: #fffaf0;
+    border: 2px dashed #1e90ff;
+    min-height: 40px;
+}
+
+
+}
