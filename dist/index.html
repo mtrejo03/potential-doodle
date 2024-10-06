@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - new game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFB6C1;">
+    <div class=" container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/mtrejo03/dev-david-hw" target="_blank">source code</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://validator.nu/?doc=https%3A%2F%2Fmtrejo03.github.io%2Fdev-david-hw%2F" target="_blank">Nu Valid</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <h1>The Emoji Game</h1>
+      <h5> To play: match each emoji to its correct adjective by dragging it!</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center">
+      <p id="score"><b>Current Score: 0</b></p>
+      <button id="resetGame" class="btn btn-primary btn-lg">RESET</button>
+    </div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-6 text-center">
+      <h3>Emojis</h3>
+      <div id="one" class="draggable">🍨🍨🍨</div>
+      <div id="two" class="draggable">🚕🚕🚕</div>
+      <div id="three" class="draggable">🦈🦈🦈</div>
+      <div id="four" class="draggable">🧀🧀🧀</div>
+    </div>
+
+    <div class="col-6 text-center">
+      <h3>Adjectives</h3>
+      <div id="sen1" class="droppable">giant fin, scary, blood, sharp teeth</div>
+      <div id="sen2" class="droppable">rats, giant triangle, funky smell</div>
+      <div id="sen3" class="droppable">cold, colorful, sweet, refreshing, summer</div>
+      <div id="sen4" class="droppable">NYC, yellow, loud, fast</div>
+
+    </div>
+  </div>
+
+  <footer class="text-center mt-4 p-3">
+    <p> Emoji game by mtrejo03</p>
+  </footer>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
